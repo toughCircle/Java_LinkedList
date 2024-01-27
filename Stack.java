@@ -1,8 +1,6 @@
 package practice.linkedlist;
 
-import linkedList.LinkedList;
-
-public class Stack<T> extends LinkedList<T> {
+public class Stack<T> extends MyLinkedList<T> {
 // add
 public void add(T data) {
     this.insert(0, data);

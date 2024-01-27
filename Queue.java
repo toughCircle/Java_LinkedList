@@ -1,8 +1,6 @@
 package practice.linkedlist;
 
-import linkedList.LinkedList;
-
-public class Queue<T> extends LinkedList<T> {
+public class Queue<T> extends MyLinkedList<T> {
     // enqueue
     public void enqueue(T data) {
         this.add(data);
